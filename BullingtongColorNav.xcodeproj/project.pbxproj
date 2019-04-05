@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		68D67C0922580D11007BFC55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D67C0822580D11007BFC55 /* AppDelegate.swift */; };
-		68D67C0B22580D11007BFC55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D67C0A22580D11007BFC55 /* ViewController.swift */; };
 		68D67C0E22580D11007BFC55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D67C0C22580D11007BFC55 /* Main.storyboard */; };
 		68D67C1022580D13007BFC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D67C0F22580D13007BFC55 /* Assets.xcassets */; };
 		68D67C1322580D13007BFC55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D67C1122580D13007BFC55 /* LaunchScreen.storyboard */; };
 		68D67C1E22580D13007BFC55 /* BullingtongColorNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D67C1D22580D13007BFC55 /* BullingtongColorNavTests.swift */; };
 		68D67C2922580D13007BFC55 /* BullingtongColorNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D67C2822580D13007BFC55 /* BullingtongColorNavUITests.swift */; };
+		68D67C3722580DD9007BFC55 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D67C3622580DD9007BFC55 /* ColorViewController.swift */; };
+		68D67C3922581091007BFC55 /* ColorStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D67C3822581091007BFC55 /* ColorStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		68D67C0522580D11007BFC55 /* BullingtongColorNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullingtongColorNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D67C0822580D11007BFC55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68D67C0A22580D11007BFC55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		68D67C0D22580D11007BFC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68D67C0F22580D13007BFC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68D67C1222580D13007BFC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		68D67C2422580D13007BFC55 /* BullingtongColorNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullingtongColorNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D67C2822580D13007BFC55 /* BullingtongColorNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullingtongColorNavUITests.swift; sourceTree = "<group>"; };
 		68D67C2A22580D13007BFC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D67C3622580DD9007BFC55 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		68D67C3822581091007BFC55 /* ColorStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				68D67C0822580D11007BFC55 /* AppDelegate.swift */,
-				68D67C0A22580D11007BFC55 /* ViewController.swift */,
 				68D67C0C22580D11007BFC55 /* Main.storyboard */,
 				68D67C0F22580D13007BFC55 /* Assets.xcassets */,
 				68D67C1122580D13007BFC55 /* LaunchScreen.storyboard */,
 				68D67C1422580D13007BFC55 /* Info.plist */,
+				68D67C3622580DD9007BFC55 /* ColorViewController.swift */,
+				68D67C3822581091007BFC55 /* ColorStruct.swift */,
 			);
 			path = BullingtongColorNav;
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D67C0B22580D11007BFC55 /* ViewController.swift in Sources */,
+				68D67C3922581091007BFC55 /* ColorStruct.swift in Sources */,
+				68D67C3722580DD9007BFC55 /* ColorViewController.swift in Sources */,
 				68D67C0922580D11007BFC55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
